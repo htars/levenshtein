@@ -4,7 +4,7 @@ from levenshtein import Levenshtein
 
 class LevenshteinTest(unittest.TestCase):
     
-    def test_levenshtein(self):
+    def test_levenshtein_exact_match(self):
         s = 'aaa'
         t = 'aaa'
         expected = 1.0
